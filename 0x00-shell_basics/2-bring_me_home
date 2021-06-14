@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home echo"\n"
+cd /root echo"\n"
