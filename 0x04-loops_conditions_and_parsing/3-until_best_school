@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
 
-NUM=0
-until [ $NUM -gt 9 ]
+NUM=1
+until [ $NUM -gt 10 ]
 do
  echo "Best School"
  NUM=$((NUM+1))
