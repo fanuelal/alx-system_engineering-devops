@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+#displaying 20 strings
+
+I=1
+while [ $I -lt 21 ]
+do
+case $I in
+    4)
+	echo $I
+	echo "bad luck from China"
+	;;
+    9)
+	echo $I
+	echo "bad luck from Japan"
+	;;
+    17)
+	echo $I
+	echo "bad luck from Italy"
+	;;
+    *)
+       echo $I
+       ;;
+esac
+I=$(( I+1 ))
+done
