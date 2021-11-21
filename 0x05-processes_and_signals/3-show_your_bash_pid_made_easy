@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#diplay the process name with bash bun not using ps
+pgrep -l "bash"
