@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that uses ssh to connect
+ssh -i ~/.ssh/school ubuntu@34.75.83.34
