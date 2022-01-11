@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#your debugging skills, find out what’s keeping your Ubuntu container’s
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+service nginx restart
