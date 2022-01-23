@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#start by sniffing unencrypted traffic and getting information out of it.
+tcpdump -A port 587
