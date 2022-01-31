@@ -20,7 +20,7 @@ if __name__ == "__main__":
             totaltasks += 1
             if i.get('completed'):
                 completed += 1
-    print('Employee {} is done with task({}/{}):'
+    print('Employee {} is done with tasks({}/{}):'
           .format(name, completed, totaltasks))
     print('\n'.join(["\t " + task.get('title') for task in tod.json()
           if task.get('userId') == int(id) and task.get('completed')]))
