@@ -11,7 +11,7 @@ if __name__ == "__main__":
     uid = sys.argv[1]
     url = requests.get("https://jsonplaceholder.typicode.com/users/{}"
                        .format(uid))
-    name = url.json().get('name')
+    name = url.json().get('username')
     tod = requests.get('https://jsonplaceholder.typicode.com/todos')
     totaltasks = 0
     completed = 0
