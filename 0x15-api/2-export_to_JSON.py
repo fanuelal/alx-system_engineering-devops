@@ -17,12 +17,12 @@ if __name__ == "__main__":
     tskList = []
     todou = {}
     for i in tod:
-        if i.get('userId') ==  int(uid):
+        if i.get('userId') == int(uid):
             dict = {"task": i.get('title'),
                     "completed": i.get('completed'),
                     "username": url.json().get('username')}
             tskList.append(dict)
     todou[uid] = tskList
-    fileName = "{}.json".format(uid)        
+    fileName = "{}.json".format(uid)
     with open(fileName, mode='w') as jsn:
         json.dump(todou, jsn)
